@@ -4,7 +4,7 @@
 >使用:
 ``` 
     //检查语音权限
-    private void checkRecordPermission() {
+private void checkRecordPermission() {
     //6.0以上的权限检查
         if (Build.VERSION.SDK_INT >= 23) {
             if (!CheckPermissionUtils.getInstance()
